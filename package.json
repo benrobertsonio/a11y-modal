@@ -1,0 +1,20 @@
+{
+  "name": "a11y-modal",
+  "version": "1.0.0",
+  "description": "A sample modal built with accesssibility in mind.",
+  "main": "main.js",
+  "author": "Ben Robertson",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.6.0",
+    "wicg-inert": "^1.1.4"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files \"index.html\" \"style.css\" \"bundle.js\""
+  }
+}
